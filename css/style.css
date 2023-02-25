@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --body_color: #334155;
+  --text_colro: #e2e8f0;
+  --border_color: #ef4444;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body_color);
+  color: #e2e8f0;
+}
+.container {
+  width: 21rem;
+  height: 21rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 10rem;
+}
+.box {
+  width: 7rem;
+  height: 7rem;
+  border: #ef4444 1px solid;
+}
+.restarter_button{
+    background-color: var(--border_color);
+    padding: 1rem 2rem;
+    border: none;
+    margin-top: 4rem;
+    font-weight: 300;
+    font-size: larger;
+    border-radius: 1rem;
+    cursor: pointer;
+}
