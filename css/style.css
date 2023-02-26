@@ -14,18 +14,23 @@ body {
   align-items: center;
   background-color: var(--body_color);
   color: #e2e8f0;
+  padding: 10rem 3rem;
 }
 .container {
   width: 21rem;
   height: 21rem;
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 .box {
   width: 7rem;
   height: 7rem;
   border: #ef4444 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
 }
 .restarter_button{
     background-color: var(--border_color);
